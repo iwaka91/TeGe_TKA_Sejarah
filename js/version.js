@@ -1,1 +1,2 @@
-window.TG_VERSION = '1.0.0';
+
+window.TG_VERSION = '1.1.0';

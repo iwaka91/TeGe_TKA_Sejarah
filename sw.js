@@ -1,5 +1,5 @@
-/* Service worker TeGe TKA Sejarah - versi 1.0.0 */
-var VERSION = '1.0.0';
+/* Service worker TeGe TKA Sejarah - versi 1.1.0 */
+var VERSION = '1.1.0';
 var CACHE = 'tg-tka-' + VERSION;
 var PRECACHE = [
  "./",
@@ -11,14 +11,21 @@ var PRECACHE = [
  "assets/cover-4.webp",
  "assets/cover-5.webp",
  "css/app.css",
- "fonts/lato-400.woff",
- "fonts/lato-700.woff",
+ "fonts/PlayfairDisplay-Bold.ttf",
+ "fonts/PlayfairDisplay-SemiBold.ttf",
+ "fonts/PlayfairDisplay-SemiBoldItalic.ttf",
+ "fonts/PlusJakartaSans-Bold.ttf",
+ "fonts/PlusJakartaSans-Medium.ttf",
+ "fonts/PlusJakartaSans-Regular.ttf",
+ "fonts/PlusJakartaSans-SemiBold.ttf",
  "icons/apple-touch-icon.png",
  "icons/icon-192.png",
  "icons/icon-512.png",
  "index.html",
+ "js/alat.js",
  "js/app.js",
  "js/materi.js",
+ "js/sertifikat.js",
  "js/soal.js",
  "js/version.js",
  "manifest.webmanifest"

@@ -1,13 +1,16 @@
 # Serah terima: persiapan update kode TeGe TKA Sejarah
 
-Tanggal: 19 Oktober 2026
+Tanggal: 25 Oktober 2026 (diperbarui; semula 19 Oktober 2026)
 Repo: iwaka91/TeGe_TKA_Sejarah
 
 ## Status
 
-- Aplikasi v1.0.0 sudah dibangun dan sudah diuji di HP oleh Pak Toto (tampilan memuaskan, fitur bacakan berfungsi).
-- Mockup versi 8 (Beranda baru dengan modal buku, Sertifikat dengan satu tanda tangan) ada di docs/mockup/.
-- Belum ada kode baru. Kode baru baru dibangun setelah perintah "Gas kode" atau "Update Kode".
+- Aplikasi **v1.1.0 sudah dibangun** (10 butir di bawah) dan di-push ke repo pada 25 Oktober 2026. Zip kandidat stabil sudah diserahkan ke Pak Toto untuk uji coba di HP dan laptop.
+- Diuji otomatis di Chromium headless (alur lengkap, offline, tema gelap, data lama v1.0.0). Uji di HP sungguhan dan publish Netlify menunggu Pak Toto.
+- Berkas baru: js/alat.js (kode verifikasi, ZIP, suara) dan js/sertifikat.js (gambar sertifikat). Font lokal lewat @font-face; Google Fonts dan Lato tidak dipakai lagi (berkas Lato masih ada di fonts/, tidak di-precache).
+- Mockup versi 8 ada di docs/mockup/ (belum diperbarui; footer sertifikat di mockup masih terpotong, perbaikan menunggu perintah "Update Mockup").
+- Penafsiran yang dilaporkan ke Pak Toto: font isi jadi Plus Jakarta Sans; ZIP semua PDF dibuat di HP dari 5 PDF (butuh internet, sekitar 2,8 MB); kartu laporan WA di halaman Hasil memakai identitas dari Pengaturan; ringkasan 5 buku di modal ditulis dari tema tiap buku (perlu dibaca Pak Toto); sertifikat dihitung dari skor terbaik latihan; nomor sertifikat naik hanya bila nama, kelas, sekolah, atau skor berubah; Mode Guru memeriksa sertifikat lewat formulir.
+- Zip uji tidak menyertakan folder docs/ (PIN tercatat di sini).
 
 ## Keputusan final untuk update kode (satu paket, versi 1.1.0)
 
@@ -31,6 +34,6 @@ Repo: iwaka91/TeGe_TKA_Sejarah
 
 ## Langkah berikutnya
 
-1. Perintah "Gas kode" dari Pak Toto.
-2. Bangun v1.1.0 di repo ini. Naikkan versi di js/version.js dan sw.js. Ubah hanya bagian yang disebut di atas.
-3. Uji di HP dan laptop, lalu kemas zip final. Jika lolos, publish di Netlify.
+1. Pak Toto menguji zip v1.1.0 di HP dan laptop; revisi hanya pada bagian yang disebut.
+2. Bila lolos, kemas zip final (tanpa docs/ dan .git) dan publish di Netlify.
+3. Perintah "Update Mockup" bila mockup perlu diselaraskan (footer sertifikat).

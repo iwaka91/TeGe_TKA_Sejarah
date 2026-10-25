@@ -1,4 +1,4 @@
-TeGe TKA Sejarah v1.0.0 (kandidat final, siap uji)
+TeGe TKA Sejarah v1.1.0 (kandidat stabil, siap uji)
 
 Cara pasang di Netlify:
 1. Ekstrak zip ini, lalu unggah seluruh isi folder (bukan zip-nya) ke situs Netlify untuk tegetkasejarah.totogutomo.com (Deploys > drag and drop).
@@ -8,5 +8,5 @@ Cara memperbarui nanti:
 - Naikkan nomor versi di js/version.js dan di sw.js (VERSION), lalu unggah ulang. Siswa yang membuka aplikasi dengan internet akan melihat "Ada versi baru. Perbarui".
 
 Catatan:
-- Huruf Playfair Display dimuat dari Google Fonts (perlu internet saat pertama dibuka, lalu tersimpan untuk offline). Lato sudah ikut di dalam aplikasi.
+- Semua huruf (Playfair Display, Plus Jakarta Sans) sudah ikut di dalam aplikasi, tidak perlu internet.
 - Tautan sumber bacaan belum bisa diperiksa otomatis dari lingkungan pembuatan; uji beberapa tautan setelah terpasang.
